@@ -82,14 +82,15 @@ LD_PRELOAD=./libdefense.so ./your_application
 RASP ALERT! ROP-АТАКА ЗАБЛОКИРОВАНА!
 
 📁 Структура проекта
-text
-
+```text
 rasp-module/
 ├── libdefense.c              
 ├── README.md                 
-├── libdefense.so                   
+├── libdefense.so           
+├── Makefile        
 └── docs/
     └── пояснительная_записка.pdf
+```
 
 ⚠️ Ограничения
 Ограничение	Описание
